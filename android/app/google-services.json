@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "46741377512",
+    "project_id": "truedaily-village-foods",
+    "storage_bucket": "truedaily-village-foods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46741377512:android:64df697d6e55a99f07d45d",
+        "android_client_info": {
+          "package_name": "com.truedailyvillagefoods.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46741377512-aukngho5hd91u22t08l117bf1pm99ubq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.truedailyvillagefoods.store",
+            "certificate_hash": "88a83abce9503f89ddcaa2a2040211aded88425e"
+          }
+        },
+        {
+          "client_id": "46741377512-6ja1sfns1akt127h7g1gdgvous0t3fb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXeQtEAY0cO7FZWXRv6Xm20-Tx1pgETbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46741377512-6ja1sfns1akt127h7g1gdgvous0t3fb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46741377512:android:edc2fe5a5868e7b707d45d",
+        "android_client_info": {
+          "package_name": "com.truedailyvillagefoodsdelivery.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46741377512-6ja1sfns1akt127h7g1gdgvous0t3fb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXeQtEAY0cO7FZWXRv6Xm20-Tx1pgETbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46741377512-6ja1sfns1akt127h7g1gdgvous0t3fb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
