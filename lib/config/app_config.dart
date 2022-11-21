@@ -37,8 +37,8 @@ class Colors {
 //  Color _mainColor = Color(0xFFFF4E6A);
   /*Color _mainColor = Color(0xFFea5c44);
   Color _mainDarkColor = Color(0xFFea5c44);*/
-  Color _mainColor = Color(0xFF008037);
-  Color _mainDarkColor = /*Color(0xff114475  )*/Color(0xFF008037);
+  Color _mainColor = Color(0xff39827E);
+  Color _mainDarkColor = /*Color(0xff114475  )*/Color(0xff39827E);
   Color _secondColor = /*(0xff006395 )*/Color(0xFF2C2C2C);
   Color _secondDarkColor = Color(0xFFccccdd);
   Color _accentColor = Color(0xFF9999aa);
