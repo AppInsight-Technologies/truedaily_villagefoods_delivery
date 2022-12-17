@@ -53,6 +53,7 @@ class _OrderWidgetState extends StateMVC<OrderWidget> {
   String _address = "";
   String _actualamount = "";
   String _deliverycharge = "";
+  String _totaldiscount = "";
   String _mobile = "";
   double _latitude = 0.0;
   double _longitude = 0.0;
@@ -90,6 +91,7 @@ class _OrderWidgetState extends StateMVC<OrderWidget> {
     _address = widget.routeArgument.address;
     _actualamount = widget.routeArgument.actual_amount;
     _deliverycharge = widget.routeArgument.delivery_charge;
+    _totaldiscount = widget.routeArgument.total_discount;
     _index = widget.routeArgument.index;
     _otp = widget.routeArgument.otp;
     _fromScreen = widget.routeArgument.fromScreen;
@@ -122,6 +124,8 @@ class _OrderWidgetState extends StateMVC<OrderWidget> {
           _address = ordersData.orderitems[0].address;
           _actualamount = ordersData.orderitems[0].actual_amount;
           _deliverycharge = ordersData.orderitems[0].delivery_charge;
+          _totaldiscount = ordersData.orderitems[0].total_discount;
+          print("Discount charge..."+_totaldiscount.toString());
           _index = widget.routeArgument.index;
           _otp = ordersData.orderitems[0].otp;
           debugPrint("status...."+_orderstatus.toString());
@@ -1592,6 +1596,27 @@ class _OrderWidgetState extends StateMVC<OrderWidget> {
                                       ),
                                       //Helper.getPrice(double.parse(_deliverycharge), style: Theme.of(context).textTheme.subhead)
                                       Text(currency_format + _deliverycharge, style:  TextStyle(
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 14,
+                                        color: Colors.black,
+                                      )),
+                                    ],
+                                  ),
+
+                                  SizedBox(height: 5),
+                                  Row(
+                                    children: <Widget>[
+                                      Expanded(
+                                        child: Text(
+                                            "Discount",
+                                            style:  TextStyle(
+                                              fontWeight: FontWeight.w600,
+                                              fontSize: 14,
+                                              color: Colors.black,
+                                            )),
+                                      ),
+                                      //Helper.getPrice(double.parse(_deliverycharge), style: Theme.of(context).textTheme.subhead)
+                                      Text("-"+currency_format + _totaldiscount, style:  TextStyle(
                                         fontWeight: FontWeight.w600,
                                         fontSize: 14,
                                         color: Colors.black,

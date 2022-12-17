@@ -11,6 +11,7 @@ class RouteArgument {
   String address;
   String actual_amount;
   String delivery_charge;
+  String total_discount;
   int index;
   String date;
   String otp;
@@ -33,6 +34,7 @@ class RouteArgument {
     this.date,
     this.fromScreen,
     this.otp,
+    this.total_discount,
   });
 
   @override

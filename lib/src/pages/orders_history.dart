@@ -354,6 +354,7 @@ class _OrdersHistoryWidgetState extends StateMVC<OrdersHistoryWidget> {
                                       address: deliveredData.delivereditems[i].address,
                                       actual_amount: deliveredData.delivereditems[i].actual_amount,
                                       delivery_charge:deliveredData.delivereditems[i].delivery_charge,
+                                      total_discount: deliveredData.delivereditems[i].total_discount,
                                       otp:deliveredData.delivereditems[i].otp,
                                       index: i,
                                     ),

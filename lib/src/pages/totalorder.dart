@@ -380,6 +380,7 @@ class _PendingOrderState extends State<TotalOrder> {
                                     address:OrdersData.items[i].address,
                                     actual_amount: OrdersData.items[i].actual_amount,
                                     delivery_charge:OrdersData.items[i].delivery_charge,
+                                    total_discount:OrdersData.items[i].total_discount,
                                     otp:OrdersData.items[i].otp,
                                     index: i,
                                   ),

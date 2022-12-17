@@ -12,6 +12,7 @@ class OrdersFields with ChangeNotifier {
   final String customer_name;
   final String actual_amount;
   final String delivery_charge;
+  final String total_discount;
   final String imageurl;
 
   final String itemname;
@@ -50,6 +51,7 @@ class OrdersFields with ChangeNotifier {
     this.customer_name,
     this.actual_amount,
     this.delivery_charge,
+    this.total_discount,
 
     this.itemname,
     this.itemorderid,
